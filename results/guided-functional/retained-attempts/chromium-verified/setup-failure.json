@@ -1,0 +1,6 @@
+{
+  "pass": false,
+  "phase": "setup before checks",
+  "error": "ENOENT: lab/node_modules/playwright/package.json; installed dependency resolves from parent checkout. Replaced assumed direct path with Node createRequire resolution. No trials recorded.",
+  "node": "v22.12.0"
+}

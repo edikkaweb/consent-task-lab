@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>After consent · Product filter lab</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+<header><a href="/">Consent task lab</a><span>Controlled experiment · v1</span></header>
+<main>
+  <p class="eyebrow">A click is the beginning</p>
+  <h1>What happens after<br>the banner closes?</h1>
+  <p class="intro">Choose your cookie preference, open the product filter, then select Shoes. A completed task means the two correct shoes appear.</p>
+  <details class="settings"><summary>Experiment settings</summary>
+    <form method="get">
+      <label>Implementation <select name="variant"><option value="baseline">Baseline · waits for optional service</option><option value="independent">Independent · filter runs directly</option></select></label>
+      <label>Optional service <select name="mode"><option value="normal">Normal · 600 ms response</option><option value="fail">Connection failure</option><option value="hang">Pending · no response</option></select></label>
+      <button type="submit">Load settings</button>
+    </form>
+    <p>Both implementations request the same simulated offers service after acceptance. This demo is not a consent management platform.</p>
+    <button id="reset" type="button">Clear saved choice and reload</button>
+  </details>
+  <section id="consent" aria-labelledby="consent-title" hidden>
+    <div><h2 id="consent-title">Optional offers</h2><p>Allow this local simulation to request an optional offer? Your choice is saved in this browser. Filtering products does not need this service.</p></div>
+    <div class="actions"><button id="accept" type="button">Accept optional service</button><button id="reject" type="button">Reject optional service</button></div>
+  </section>
+  <p id="choice-state" class="choice">JavaScript is unavailable; the complete catalogue remains below.</p>
+  <div class="catalogue-heading"><h2>Everyday collection</h2><button id="open-filter" type="button" aria-expanded="false" aria-controls="filters" hidden>Filter products</button></div>
+  <fieldset id="filters" hidden><legend>Choose a category</legend><button id="shoes" type="button" aria-pressed="false">Shoes</button><button id="bags" type="button" aria-pressed="false">Bags</button><button id="all" type="button" aria-pressed="true">All products</button></fieldset>
+  <p id="task-status" role="status" aria-live="polite">6 products</p>
+  <ul id="products" class="products">
+    <li data-id="shoe-01" data-category="shoes"><span class="product-shape shoe">01</span><h3>Canvas trainer</h3><p>Shoes · €65</p></li>
+    <li data-id="bag-01" data-category="bags"><span class="product-shape bag">02</span><h3>Day tote</h3><p>Bags · €40</p></li>
+    <li data-id="shoe-02" data-category="shoes"><span class="product-shape shoe">03</span><h3>Walking shoe</h3><p>Shoes · €90</p></li>
+    <li data-id="bag-02" data-category="bags"><span class="product-shape bag">04</span><h3>Weekender</h3><p>Bags · €85</p></li>
+    <li data-id="hat-01" data-category="hats"><span class="product-shape hat">05</span><h3>Sun cap</h3><p>Hats · €25</p></li>
+    <li data-id="hat-02" data-category="hats"><span class="product-shape hat">06</span><h3>Wool beanie</h3><p>Hats · €30</p></li>
+  </ul>
+  <aside aria-labelledby="offers-title"><h2 id="offers-title">Optional service</h2><p id="offers" role="status">Not requested</p></aside>
+  <details class="readings"><summary>Inspect this run</summary><p>DOM markers and rendering-opportunity proxies below are not INP or proof of pixels displayed. Use the test runner for independent verification.</p><button id="inspect" type="button">Refresh readings</button><pre id="readings"></pre></details>
+  <noscript><p>The interactive experiment needs JavaScript. The six products above remain readable; no optional request is made.</p></noscript>
+</main>
+<footer>Local simulation. No real tracking, third-party vendor or customer data.</footer>
+</body>
+</html>

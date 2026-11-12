@@ -1,0 +1,120 @@
+{
+  "at": "2026-11-12T15:10:36.810Z",
+  "engine": "firefox",
+  "browser": "155.0",
+  "node": "v22.12.0",
+  "sources": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app.js": "618a86149d5d907e9f4dab812e5677514d395ad02f3caeac3b684b236cbfc65d",
+    "copy.mjs": "4c7be5164178f2b210a0aa692a59a18c69c0fa0517cc7979f493588c7384b62a",
+    "index-en.html": "e7d7a51f0f7db86f27966cf6093d6781cdef00c87b6bcab3a64ba6817dc381b3",
+    "index.html": "b0129f3b681318c2ce6b33ab7b42515cc44cbd5129c622ba77670fbb5f07e1b9",
+    "oracle.mjs": "61304b8b57c942df981179f81a455b98b230c488ad5daabc9c3b3a223f37e7bf",
+    "simulation.mjs": "780b8b475b4a62897f26d868dc1c2de787a895b877b79de349fa86ea4f138a2f",
+    "style.css": "1835dcda4159c4d82483437af2cb5f5ad21d802ae673159040c7dff7809c4b83"
+  },
+  "checks": [
+    {
+      "name": "fr hang/accept",
+      "pass": true
+    },
+    {
+      "name": "fr hang/reject",
+      "pass": true
+    },
+    {
+      "name": "fr fail/accept",
+      "pass": true
+    },
+    {
+      "name": "fr fail/reject",
+      "pass": true
+    },
+    {
+      "name": "fr normal/accept",
+      "pass": true
+    },
+    {
+      "name": "fr normal/reject",
+      "pass": true
+    },
+    {
+      "name": "fr language navigation and document links",
+      "pass": true
+    },
+    {
+      "name": "fr reset cancels late offer and clears choice",
+      "pass": true
+    },
+    {
+      "name": "fr wrong product cannot pass",
+      "pass": true
+    },
+    {
+      "name": "fr oracle failure stays isolated",
+      "pass": true
+    },
+    {
+      "name": "fr keyboard, mobile and reduced motion",
+      "pass": true
+    },
+    {
+      "name": "fr JavaScript off retains catalog and explanation",
+      "pass": true
+    },
+    {
+      "name": "en hang/accept",
+      "pass": true
+    },
+    {
+      "name": "en hang/reject",
+      "pass": true
+    },
+    {
+      "name": "en fail/accept",
+      "pass": true
+    },
+    {
+      "name": "en fail/reject",
+      "pass": true
+    },
+    {
+      "name": "en normal/accept",
+      "pass": true
+    },
+    {
+      "name": "en normal/reject",
+      "pass": true
+    },
+    {
+      "name": "en language navigation and document links",
+      "pass": true
+    },
+    {
+      "name": "en reset cancels late offer and clears choice",
+      "pass": true
+    },
+    {
+      "name": "en wrong product cannot pass",
+      "pass": true
+    },
+    {
+      "name": "en oracle failure stays isolated",
+      "pass": true
+    },
+    {
+      "name": "en keyboard, mobile and reduced motion",
+      "pass": true
+    },
+    {
+      "name": "en JavaScript off retains catalog and explanation",
+      "pass": true
+    },
+    {
+      "name": "persisted lifecycle restores an interactive fresh attempt",
+      "pass": true
+    }
+  ],
+  "passed": 25,
+  "total": 25
+}

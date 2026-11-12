@@ -1,0 +1,1 @@
+Relecture locale du premier dérivé FR : le lien de langue English pointait vers index.html (FR). Cause : remplacement de href trop large après traduction. Correction : cibler uniquement le lien wordmark. Aucun lot publié ; contrôle de navigation croisée ajouté au test navigateur.

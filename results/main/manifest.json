@@ -1,0 +1,73 @@
+{
+  "phase": "main",
+  "startedAt": "2026-11-10T17:44:15.532Z",
+  "protocol": {
+    "version": "1.0.0",
+    "seed": 666202611,
+    "repetitions": 20,
+    "variants": [
+      "baseline",
+      "independent"
+    ],
+    "consentStates": [
+      "accept",
+      "reject",
+      "saved-accept",
+      "saved-reject"
+    ],
+    "serviceModes": [
+      "normal",
+      "fail",
+      "hang"
+    ],
+    "viewport": {
+      "width": 1280,
+      "height": 1000
+    },
+    "deviceScaleFactor": 1,
+    "cpuSlowdown": 4,
+    "network": "Unthrottled loopback; optional normal response delayed 600 ms at server",
+    "cache": "Fresh browser context per trial; CDP cache disabled; all responses no-store",
+    "consentSettleMs": 100,
+    "filterSettleMs": 50,
+    "observationAfterFilterMs": 1500,
+    "eventDurationThresholdMs": 16,
+    "trace": "Chromium CDP timeline and screenshots, first block only; marked and summarized separately",
+    "success": "Independent DOM observer finds exactly shoe-01/Canvas trainer and shoe-02/Walking shoe, visible and in order; final oracle must agree",
+    "failure": "No correct result by 1500 ms after filter input: explicit-error or deadline; harness errors kept separately",
+    "analysis": "All runs retained. Success-only median, Q1/Q3, min/max and nearest-rank p95; failures counted separately. No field INP or causal population estimate."
+  },
+  "repetitions": 20,
+  "seed": 666202611,
+  "sources": {
+    "package.json": "5506084bff17f5e2fd313d1e18c3d1964e9b32dfadb8487ee0a984858cbbb6ad",
+    "package-lock.json": "241a8716c60497a87b99a1e8abc087c232d10ff7f3dc60d9740643e152b03afa",
+    "demo/index.html": "52a6acbb600f8a6852b9eb3f748676917ff06e773b5bb7d1735f14c0a687fbaa",
+    "demo/style.css": "2f1cfc6cb2f9b62114df6bb757add7601f9b70772004cbefbd9a6e499de37352",
+    "demo/app.js": "55e715c6edcde417fa22a73952f80e8f3ba6503f1a614272ce64af385b564adb",
+    "tests/oracle.json": "944b27a9cf91e9998223baffde34119aeda88871f592fdf0bbaee10e8d0bdf52",
+    "scripts/protocol.mjs": "66c3489d9afa968abb0a1b85da064b6f5b44531fb80a957c3ea4582346e6400c",
+    "scripts/server.mjs": "c93e0c15a9731f099b51d007098348e9ec3841564bc567bc0e4d86493166b667",
+    "scripts/observer.mjs": "e620d4fab86504a27eb7bbc0fe0ab822bff9c117d8a1863e499d7b6f1f41d37f",
+    "scripts/metrics.mjs": "03a244fca979dbcd51c1a6ece0135141b528d18fd50299a5ca96a1582d96a6f3",
+    "scripts/measure.mjs": "01cd7089a56f39e1a19019cb11f10e29be3d28b8e51545e2bcc50f6251792411",
+    "scripts/sources.mjs": "906c075484a5d6adba41971a46e63cb96982e1aecdf2031a3c7943d17f06490e"
+  },
+  "browser": "153.0.8010.12",
+  "playwright": "1.63.0",
+  "node": "v22.12.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "release": "25.3.0",
+  "cpu": "Apple M4 Max",
+  "logicalCPUs": 14,
+  "totalMemoryBytes": 38654705664,
+  "headless": true,
+  "notes": [
+    "Single sequential browser process; fresh context for each trial",
+    "Machine load, thermal state and power profile not controlled",
+    "No real CMP, external vendor, network or mobile hardware",
+    "Trace overhead: first block only; separate sensitivity summary"
+  ],
+  "scheduleSha256": "bb8757498765d7434e548337f17668b8faee24662700078ccd37ac2f770d6db3"
+}

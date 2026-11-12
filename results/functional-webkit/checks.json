@@ -1,0 +1,250 @@
+[
+  {
+    "name": "keyboard/independent/saved-reject/normal",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/accept/hang",
+    "pass": false,
+    "error": "Error: Cannot reach accept by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/accept/fail",
+    "pass": false,
+    "error": "Error: Cannot reach accept by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/saved-reject/hang",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/reject/fail",
+    "pass": false,
+    "error": "Error: Cannot reach reject by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/saved-accept/hang",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/reject/normal",
+    "pass": false,
+    "error": "Error: Cannot reach reject by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/saved-accept/hang",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/saved-accept/fail",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/accept/normal",
+    "pass": false,
+    "error": "Error: Cannot reach accept by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/reject/hang",
+    "pass": false,
+    "error": "Error: Cannot reach reject by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/saved-accept/fail",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/reject/normal",
+    "pass": false,
+    "error": "Error: Cannot reach reject by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/reject/hang",
+    "pass": false,
+    "error": "Error: Cannot reach reject by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/saved-reject/hang",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/saved-accept/normal",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/accept/hang",
+    "pass": false,
+    "error": "Error: Cannot reach accept by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/accept/normal",
+    "pass": false,
+    "error": "Error: Cannot reach accept by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/saved-reject/fail",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/saved-reject/normal",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/saved-accept/normal",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/accept/fail",
+    "pass": false,
+    "error": "Error: Cannot reach accept by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/baseline/saved-reject/fail",
+    "pass": false,
+    "error": "Error: Cannot reach open-filter by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:42:9\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "keyboard/independent/reject/fail",
+    "pass": false,
+    "error": "Error: Cannot reach reject by keyboard\n    at keyboardTo (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:29:9)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:41:47\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:19:8)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/functional.mjs:33:5"
+  },
+  {
+    "name": "touch/independent/saved-reject/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/accept/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/accept/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/saved-reject/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/reject/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/saved-accept/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/reject/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/saved-accept/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/saved-accept/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/accept/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/reject/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/saved-accept/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/reject/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/reject/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/saved-reject/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/saved-accept/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/accept/hang",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/accept/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/saved-reject/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/saved-reject/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/saved-accept/normal",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/accept/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/baseline/saved-reject/fail",
+    "pass": true
+  },
+  {
+    "name": "touch/independent/reject/fail",
+    "pass": true
+  },
+  {
+    "name": "actual-storage-reload/accept",
+    "pass": true
+  },
+  {
+    "name": "actual-storage-reload/reject",
+    "pass": true
+  },
+  {
+    "name": "no-javascript/390",
+    "pass": true
+  },
+  {
+    "name": "no-javascript/1280",
+    "pass": true
+  },
+  {
+    "name": "reduced-motion/independent/failure",
+    "pass": true
+  },
+  {
+    "name": "observer-negative-control/wrong-product-name",
+    "pass": true
+  },
+  {
+    "name": "latest-selection-wins/baseline",
+    "pass": true
+  },
+  {
+    "name": "latest-selection-wins/independent",
+    "pass": true
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "shoes": [{"id":"shoe-01","name":"Canvas trainer"},{"id":"shoe-02","name":"Walking shoe"}],
+  "bags": [{"id":"bag-01","name":"Day tote"},{"id":"bag-02","name":"Weekender"}],
+  "allIds": ["shoe-01","bag-01","shoe-02","bag-02","hat-01","hat-02"]
+}

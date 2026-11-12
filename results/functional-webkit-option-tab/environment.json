@@ -1,0 +1,11 @@
+{
+  "engine": "webkit",
+  "version": "26.6",
+  "node": "v22.12.0",
+  "observedAt": "2026-11-10T18:04:03.602Z",
+  "keyboardStep": "Alt+Tab",
+  "inputModes": [
+    "keyboard"
+  ],
+  "note": "Functional checks only; not performance comparisons. Firefox touch emulation not included."
+}

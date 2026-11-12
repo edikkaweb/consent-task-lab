@@ -1,0 +1,223 @@
+{
+  "engine": "firefox",
+  "environment": {
+    "node": "v22.12.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "browser": "155.0",
+    "playwright": "1.63.0"
+  },
+  "sources": {
+    "guided/index.html": "59a96b35ce33b3e465bc93a4752bd727418746cd2aee286048deb0662ea56107",
+    "guided/style.css": "1835dcda4159c4d82483437af2cb5f5ad21d802ae673159040c7dff7809c4b83",
+    "guided/app.js": "2239265e971c185fedc9e7e3dd2a636c3048b2720ed2246a67c9c84fbbed0469",
+    "guided/oracle.mjs": "61304b8b57c942df981179f81a455b98b230c488ad5daabc9c3b3a223f37e7bf",
+    "scripts/guided-server.mjs": "22e8e1c41631b25a8cbb70a1a9f2fce6b2b873c9815c084c403c4f87c291fce9",
+    "scripts/guided-check.mjs": "c6aa1d5bae638de9d47cac10860c135f3d6a210edee1a7ad0aa6a79b81bcb151",
+    "tests/oracle.json": "944b27a9cf91e9998223baffde34119aeda88871f592fdf0bbaee10e8d0bdf52",
+    "package-lock.json": "241a8716c60497a87b99a1e8abc087c232d10ff7f3dc60d9740643e152b03afa"
+  },
+  "checkedAt": "2026-11-11T05:39:04.005Z",
+  "scope": "Functional teaching-view checks, excluded from campaign; lifecycle restore is a synthetic PageTransitionEvent check, not a claim about actual cache eligibility",
+  "checks": [
+    {
+      "name": "firefox: hang/accept",
+      "pass": true
+    },
+    {
+      "name": "firefox: hang/reject",
+      "pass": true
+    },
+    {
+      "name": "firefox: fail/accept",
+      "pass": true
+    },
+    {
+      "name": "firefox: fail/reject",
+      "pass": true
+    },
+    {
+      "name": "firefox: normal/accept",
+      "pass": true
+    },
+    {
+      "name": "firefox: normal/reject",
+      "pass": true
+    },
+    {
+      "name": "offer pending at click, then resolved: takeaway describes the actual wait",
+      "pass": true
+    },
+    {
+      "name": "persisted page lifecycle restores a fresh usable comparison",
+      "pass": true
+    },
+    {
+      "name": "failed configuration cannot become interactive on page restore",
+      "pass": true
+    },
+    {
+      "name": "a DOM fault stays a harness error and cannot skip the other panel",
+      "pass": true
+    },
+    {
+      "name": "persistent oracle fault before-filter: healthy panel still receives its checkpoint",
+      "pass": true
+    },
+    {
+      "name": "persistent oracle fault during-observation: healthy panel still receives its checkpoint",
+      "pass": true
+    },
+    {
+      "name": "a later service rejection cannot overwrite a prior observer fault",
+      "pass": true
+    },
+    {
+      "name": "wrong baseline result after refusal does not imply an optional request caused it",
+      "pass": true
+    },
+    {
+      "name": "panel isolation and wrong-name negative control",
+      "pass": true
+    },
+    {
+      "name": "an early matching DOM does not excuse a wrong final result",
+      "pass": true
+    },
+    {
+      "name": "ten pending resets release connections; normal still completes",
+      "pass": true
+    },
+    {
+      "name": "late old response cannot alter the new rejected attempt",
+      "pass": true
+    },
+    {
+      "name": "keyboard, mobile, reduced motion and accessible status summary",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript: catalog and method remain readable; no optional requests",
+      "pass": true
+    },
+    {
+      "name": "original UI source remains exact on the companion server",
+      "pass": true
+    }
+  ],
+  "requestAccounting": [
+    {
+      "mode": "hang",
+      "choice": "accept",
+      "applicationFetchCalls": 1,
+      "serverReceipts": [
+        {
+          "mode": "hang",
+          "run": "guided-1",
+          "receivedAt": "2026-11-11T05:38:27.507Z",
+          "response": "pending"
+        }
+      ]
+    },
+    {
+      "mode": "hang",
+      "choice": "reject",
+      "applicationFetchCalls": 0,
+      "serverReceipts": []
+    },
+    {
+      "mode": "fail",
+      "choice": "accept",
+      "applicationFetchCalls": 1,
+      "serverReceipts": [
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.390Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.391Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.391Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.391Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.392Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.392Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.392Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.392Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.392Z",
+          "response": "connection-destroyed"
+        },
+        {
+          "mode": "fail",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:31.393Z",
+          "response": "connection-destroyed"
+        }
+      ]
+    },
+    {
+      "mode": "fail",
+      "choice": "reject",
+      "applicationFetchCalls": 0,
+      "serverReceipts": []
+    },
+    {
+      "mode": "normal",
+      "choice": "accept",
+      "applicationFetchCalls": 1,
+      "serverReceipts": [
+        {
+          "mode": "normal",
+          "run": "guided-2",
+          "receivedAt": "2026-11-11T05:38:35.571Z",
+          "response": "200"
+        }
+      ]
+    },
+    {
+      "mode": "normal",
+      "choice": "reject",
+      "applicationFetchCalls": 0,
+      "serverReceipts": []
+    }
+  ],
+  "failures": [],
+  "pass": true
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "variant": "independent",
+    "consent": "saved-reject",
+    "mode": "normal",
+    "block": 1,
+    "index": 1,
+    "id": "0001-independent-saved-reject-normal"
+  },
+  {
+    "variant": "baseline",
+    "consent": "accept",
+    "mode": "hang",
+    "block": 1,
+    "index": 2,
+    "id": "0002-baseline-accept-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "accept",
+    "mode": "fail",
+    "block": 1,
+    "index": 3,
+    "id": "0003-baseline-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-reject",
+    "mode": "hang",
+    "block": 1,
+    "index": 4,
+    "id": "0004-baseline-saved-reject-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "reject",
+    "mode": "fail",
+    "block": 1,
+    "index": 5,
+    "id": "0005-baseline-reject-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-accept",
+    "mode": "hang",
+    "block": 1,
+    "index": 6,
+    "id": "0006-baseline-saved-accept-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "reject",
+    "mode": "normal",
+    "block": 1,
+    "index": 7,
+    "id": "0007-independent-reject-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-accept",
+    "mode": "hang",
+    "block": 1,
+    "index": 8,
+    "id": "0008-independent-saved-accept-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-accept",
+    "mode": "fail",
+    "block": 1,
+    "index": 9,
+    "id": "0009-baseline-saved-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "accept",
+    "mode": "normal",
+    "block": 1,
+    "index": 10,
+    "id": "0010-baseline-accept-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "reject",
+    "mode": "hang",
+    "block": 1,
+    "index": 11,
+    "id": "0011-independent-reject-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-accept",
+    "mode": "fail",
+    "block": 1,
+    "index": 12,
+    "id": "0012-independent-saved-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "reject",
+    "mode": "normal",
+    "block": 1,
+    "index": 13,
+    "id": "0013-baseline-reject-normal"
+  },
+  {
+    "variant": "baseline",
+    "consent": "reject",
+    "mode": "hang",
+    "block": 1,
+    "index": 14,
+    "id": "0014-baseline-reject-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-reject",
+    "mode": "hang",
+    "block": 1,
+    "index": 15,
+    "id": "0015-independent-saved-reject-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-accept",
+    "mode": "normal",
+    "block": 1,
+    "index": 16,
+    "id": "0016-independent-saved-accept-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "accept",
+    "mode": "hang",
+    "block": 1,
+    "index": 17,
+    "id": "0017-independent-accept-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "accept",
+    "mode": "normal",
+    "block": 1,
+    "index": 18,
+    "id": "0018-independent-accept-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-reject",
+    "mode": "fail",
+    "block": 1,
+    "index": 19,
+    "id": "0019-independent-saved-reject-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-reject",
+    "mode": "normal",
+    "block": 1,
+    "index": 20,
+    "id": "0020-baseline-saved-reject-normal"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-accept",
+    "mode": "normal",
+    "block": 1,
+    "index": 21,
+    "id": "0021-baseline-saved-accept-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "accept",
+    "mode": "fail",
+    "block": 1,
+    "index": 22,
+    "id": "0022-independent-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-reject",
+    "mode": "fail",
+    "block": 1,
+    "index": 23,
+    "id": "0023-baseline-saved-reject-fail"
+  },
+  {
+    "variant": "independent",
+    "consent": "reject",
+    "mode": "fail",
+    "block": 1,
+    "index": 24,
+    "id": "0024-independent-reject-fail"
+  },
+  {
+    "variant": "independent",
+    "consent": "reject",
+    "mode": "hang",
+    "block": 2,
+    "index": 25,
+    "id": "0025-independent-reject-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-reject",
+    "mode": "hang",
+    "block": 2,
+    "index": 26,
+    "id": "0026-independent-saved-reject-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "accept",
+    "mode": "normal",
+    "block": 2,
+    "index": 27,
+    "id": "0027-baseline-accept-normal"
+  },
+  {
+    "variant": "baseline",
+    "consent": "reject",
+    "mode": "hang",
+    "block": 2,
+    "index": 28,
+    "id": "0028-baseline-reject-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-accept",
+    "mode": "fail",
+    "block": 2,
+    "index": 29,
+    "id": "0029-baseline-saved-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "reject",
+    "mode": "fail",
+    "block": 2,
+    "index": 30,
+    "id": "0030-baseline-reject-fail"
+  },
+  {
+    "variant": "independent",
+    "consent": "reject",
+    "mode": "normal",
+    "block": 2,
+    "index": 31,
+    "id": "0031-independent-reject-normal"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-reject",
+    "mode": "fail",
+    "block": 2,
+    "index": 32,
+    "id": "0032-baseline-saved-reject-fail"
+  },
+  {
+    "variant": "independent",
+    "consent": "accept",
+    "mode": "normal",
+    "block": 2,
+    "index": 33,
+    "id": "0033-independent-accept-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-accept",
+    "mode": "hang",
+    "block": 2,
+    "index": 34,
+    "id": "0034-independent-saved-accept-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-accept",
+    "mode": "normal",
+    "block": 2,
+    "index": 35,
+    "id": "0035-independent-saved-accept-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-reject",
+    "mode": "fail",
+    "block": 2,
+    "index": 36,
+    "id": "0036-independent-saved-reject-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-accept",
+    "mode": "normal",
+    "block": 2,
+    "index": 37,
+    "id": "0037-baseline-saved-accept-normal"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-reject",
+    "mode": "normal",
+    "block": 2,
+    "index": 38,
+    "id": "0038-baseline-saved-reject-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-reject",
+    "mode": "normal",
+    "block": 2,
+    "index": 39,
+    "id": "0039-independent-saved-reject-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "reject",
+    "mode": "fail",
+    "block": 2,
+    "index": 40,
+    "id": "0040-independent-reject-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "accept",
+    "mode": "fail",
+    "block": 2,
+    "index": 41,
+    "id": "0041-baseline-accept-fail"
+  },
+  {
+    "variant": "independent",
+    "consent": "accept",
+    "mode": "fail",
+    "block": 2,
+    "index": 42,
+    "id": "0042-independent-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-reject",
+    "mode": "hang",
+    "block": 2,
+    "index": 43,
+    "id": "0043-baseline-saved-reject-hang"
+  },
+  {
+    "variant": "independent",
+    "consent": "accept",
+    "mode": "hang",
+    "block": 2,
+    "index": 44,
+    "id": "0044-independent-accept-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "reject",
+    "mode": "normal",
+    "block": 2,
+    "index": 45,
+    "id": "0045-baseline-reject-normal"
+  },
+  {
+    "variant": "independent",
+    "consent": "saved-accept",
+    "mode": "fail",
+    "block": 2,
+    "index": 46,
+    "id": "0046-independent-saved-accept-fail"
+  },
+  {
+    "variant": "baseline",
+    "consent": "saved-accept",
+    "mode": "hang",
+    "block": 2,
+    "index": 47,
+    "id": "0047-baseline-saved-accept-hang"
+  },
+  {
+    "variant": "baseline",
+    "consent": "accept",
+    "mode": "hang",
+    "block": 2,
+    "index": 48,
+    "id": "0048-baseline-accept-hang"
+  }
+]

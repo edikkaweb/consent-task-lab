@@ -1,0 +1,206 @@
+[
+  {
+    "kind": "native-control",
+    "key": "Tab",
+    "focus": [
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "LinkFirstSecond"
+      },
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "LinkFirstSecond"
+      },
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "LinkFirstSecond"
+      },
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "LinkFirstSecond"
+      },
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "kind": "native-control",
+    "key": "Alt+Tab",
+    "focus": [
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Link"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "first",
+        "text": "First"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "second",
+        "text": "Second"
+      },
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "LinkFirstSecond"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Link"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "first",
+        "text": "First"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "second",
+        "text": "Second"
+      },
+      {
+        "tag": "INPUT",
+        "id": "input",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "kind": "demo",
+    "key": "Tab",
+    "focus": [
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Experiment settings"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Inspect this run"
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "\nConsent task labControlled experiment ·"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Experiment settings"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Inspect this run"
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "\nConsent task labControlled experiment ·"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Experiment settings"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Inspect this run"
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "\nConsent task labControlled experiment ·"
+      }
+    ]
+  },
+  {
+    "kind": "demo",
+    "key": "Alt+Tab",
+    "focus": [
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Consent task lab"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Experiment settings"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "accept",
+        "text": "Accept optional service"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "reject",
+        "text": "Reject optional service"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Inspect this run"
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "text": "\nConsent task labControlled experiment ·"
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "Consent task lab"
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "text": "Experiment settings"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "accept",
+        "text": "Accept optional service"
+      }
+    ]
+  }
+]

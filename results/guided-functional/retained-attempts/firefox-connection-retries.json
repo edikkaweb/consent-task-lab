@@ -1,0 +1,146 @@
+{
+  "browser": "Firefox",
+  "version": "155.0",
+  "scope": "Functional diagnosis only, not campaign data",
+  "guide": {
+    "fetchCalls": [
+      "http://127.0.0.1:4213/offers?mode=fail&run=guided-2"
+    ],
+    "browserRequests": [
+      {
+        "url": "http://127.0.0.1:4213/offers?mode=fail&run=guided-2",
+        "method": "GET"
+      }
+    ],
+    "serverReceipts": [
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.897Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.898Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.898Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.899Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.899Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.899Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.900Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.900Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.900Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "guided-2",
+        "receivedAt": "2026-11-10T20:46:01.901Z",
+        "response": "connection-destroyed"
+      }
+    ]
+  },
+  "control": {
+    "serverReceipts": [
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.914Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.914Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.914Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.915Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.915Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.915Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.915Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.916Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.916Z",
+        "response": "connection-destroyed"
+      },
+      {
+        "mode": "fail",
+        "run": "single-fetch-control",
+        "receivedAt": "2026-11-10T20:46:01.916Z",
+        "response": "connection-destroyed"
+      }
+    ],
+    "fetchCalls": [
+      "http://127.0.0.1:4213/offers?mode=fail&run=guided-2",
+      "http://127.0.0.1:4213/offers?mode=fail&run=single-fetch-control"
+    ]
+  }
+}

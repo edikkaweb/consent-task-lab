@@ -1,0 +1,9 @@
+# Guided comparison functional evidence — 10 November 2026
+
+These checks belong to the additive teaching view, not the 480-trial measurement campaign. No duration from these checks contributes to article estimates. `chromium/`, `firefox/` and `webkit/` each contain 17 passing checks, versions, source hashes, application-fetch counts, server receipts and screenshots. Run the commands in the root README into a new directory to reproduce the checks.
+
+`retained-attempts/` preserves adverse results: the initial Firefox and WebKit checks each passed 12 and failed one assertion that incorrectly required one server receipt after a socket failure. One application fetch can generate multiple transport attempts. The Firefox single-fetch diagnostic reproduces ten server receipts, and the initial WebKit test observed four. The corrected checks still require exactly one application fetch on acceptance, zero on rejection, one receipt for normal/pending, and a shared run ID with destroyed connections for each failure receipt. No failure is discarded from the original campaign.
+
+The retained Chromium setup error assumed a local node_modules folder. This checkout resolves Playwright from its parent; the runner now uses Node module resolution and records the actual version. No checks ran in that failed setup attempt.
+
+Coverage includes exact product IDs/names/order, a wrong-name negative control, a transient match with a wrong final state, an injected DOM fault, reset cancellation, ten pending resets, late responses, a controlled pending-to-ready response, JavaScript disabled, reduced-motion preference, narrow viewports and keyboard activation/focus. Lifecycle restoration is checked with synthetic PageTransitionEvents; actual back/forward-cache eligibility is not established. This is not a screen-reader audit, physical-device test or cross-browser performance comparison.

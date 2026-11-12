@@ -1,0 +1,58 @@
+{
+  "runs": [
+    {
+      "directory": "functional",
+      "checks": 57,
+      "passed": 57,
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "directory": "functional-firefox",
+      "checks": 32,
+      "passed": 32,
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "directory": "functional-webkit",
+      "checks": 56,
+      "passed": 32,
+      "failed": 24,
+      "failures": [
+        "keyboard/independent/saved-reject/normal",
+        "keyboard/baseline/accept/hang",
+        "keyboard/baseline/accept/fail",
+        "keyboard/baseline/saved-reject/hang",
+        "keyboard/baseline/reject/fail",
+        "keyboard/baseline/saved-accept/hang",
+        "keyboard/independent/reject/normal",
+        "keyboard/independent/saved-accept/hang",
+        "keyboard/baseline/saved-accept/fail",
+        "keyboard/baseline/accept/normal",
+        "keyboard/independent/reject/hang",
+        "keyboard/independent/saved-accept/fail",
+        "keyboard/baseline/reject/normal",
+        "keyboard/baseline/reject/hang",
+        "keyboard/independent/saved-reject/hang",
+        "keyboard/independent/saved-accept/normal",
+        "keyboard/independent/accept/hang",
+        "keyboard/independent/accept/normal",
+        "keyboard/independent/saved-reject/fail",
+        "keyboard/baseline/saved-reject/normal",
+        "keyboard/baseline/saved-accept/normal",
+        "keyboard/independent/accept/fail",
+        "keyboard/baseline/saved-reject/fail",
+        "keyboard/independent/reject/fail"
+      ]
+    },
+    {
+      "directory": "functional-webkit-option-tab",
+      "checks": 32,
+      "passed": 32,
+      "failed": 0,
+      "failures": []
+    }
+  ],
+  "note": "WebKit Tab failures retained; Option+Tab is a separate passing condition, not a replacement. No app or system setting changed."
+}

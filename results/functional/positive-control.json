@@ -1,0 +1,306 @@
+{
+  "variant": "independent",
+  "mode": "normal",
+  "marks": {
+    "app-ready": 21,
+    "consent-input": 64.5,
+    "consent-handler": 65,
+    "banner-hidden-dom": 65,
+    "banner-render-opportunity": 109.10000002384186,
+    "open-input": 111.10000002384186,
+    "open-handler": 111.39999997615814,
+    "open-render-opportunity": 129.60000002384186,
+    "filter-input": 147.89999997615814,
+    "filter-handler": 328.3000000715256,
+    "filter-dom": 328.3000000715256,
+    "filter-feedback-opportunity": 330.39999997615814,
+    "filter-render-opportunity": 330.39999997615814
+  },
+  "events": [
+    {
+      "name": "pointerover",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": "reject"
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "mouseover",
+      "startTime": 64.39999997615814,
+      "duration": 48,
+      "processingStart": 64.60000002384186,
+      "processingEnd": 64.60000002384186,
+      "interactionId": 0,
+      "target": "reject"
+    },
+    {
+      "name": "pointerdown",
+      "startTime": 64.5,
+      "duration": 48,
+      "processingStart": 64.80000007152557,
+      "processingEnd": 64.89999997615814,
+      "interactionId": 555,
+      "target": "reject"
+    },
+    {
+      "name": "mousedown",
+      "startTime": 64.5,
+      "duration": 48,
+      "processingStart": 64.89999997615814,
+      "processingEnd": 64.89999997615814,
+      "interactionId": 0,
+      "target": "reject"
+    },
+    {
+      "name": "pointerup",
+      "startTime": 64.5,
+      "duration": 48,
+      "processingStart": 64.89999997615814,
+      "processingEnd": 64.89999997615814,
+      "interactionId": 555,
+      "target": "reject"
+    },
+    {
+      "name": "mouseup",
+      "startTime": 64.5,
+      "duration": 48,
+      "processingStart": 64.89999997615814,
+      "processingEnd": 64.89999997615814,
+      "interactionId": 0,
+      "target": "reject"
+    },
+    {
+      "name": "click",
+      "startTime": 64.5,
+      "duration": 48,
+      "processingStart": 64.89999997615814,
+      "processingEnd": 65.20000004768372,
+      "interactionId": 555,
+      "target": "reject"
+    },
+    {
+      "name": "pointerout",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": "open-filter"
+    },
+    {
+      "name": "pointerleave",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerleave",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerover",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": "shoes"
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "pointerenter",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": null
+    },
+    {
+      "name": "mouseout",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": "open-filter"
+    },
+    {
+      "name": "mouseover",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148,
+      "interactionId": 0,
+      "target": "shoes"
+    },
+    {
+      "name": "pointerdown",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148,
+      "processingEnd": 148.10000002384186,
+      "interactionId": 569,
+      "target": "shoes"
+    },
+    {
+      "name": "mousedown",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148.10000002384186,
+      "processingEnd": 148.10000002384186,
+      "interactionId": 0,
+      "target": "shoes"
+    },
+    {
+      "name": "pointerup",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148.20000004768372,
+      "processingEnd": 148.20000004768372,
+      "interactionId": 569,
+      "target": "shoes"
+    },
+    {
+      "name": "mouseup",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148.20000004768372,
+      "processingEnd": 148.20000004768372,
+      "interactionId": 0,
+      "target": "shoes"
+    },
+    {
+      "name": "click",
+      "startTime": 147.89999997615814,
+      "duration": 184,
+      "processingStart": 148.20000004768372,
+      "processingEnd": 328.3000000715256,
+      "interactionId": 569,
+      "target": "shoes"
+    }
+  ],
+  "longTasks": [
+    {
+      "name": "self",
+      "entryType": "longtask",
+      "startTime": 148,
+      "duration": 180,
+      "navigationId": 2564,
+      "attribution": [
+        {
+          "name": "unknown",
+          "entryType": "taskattribution",
+          "startTime": 0,
+          "duration": 0,
+          "navigationId": 2564,
+          "containerType": "window",
+          "containerSrc": "",
+          "containerId": "",
+          "containerName": ""
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "optional": "not-requested",
+  "supportedEntryTypes": [
+    "element",
+    "event",
+    "first-input",
+    "interaction-contentful-paint",
+    "largest-contentful-paint",
+    "layout-shift",
+    "long-animation-frame",
+    "longtask",
+    "mark",
+    "measure",
+    "navigation",
+    "paint",
+    "resource",
+    "soft-navigation",
+    "visibility-state"
+  ],
+  "choice": "reject"
+}

@@ -1,0 +1,250 @@
+[
+  [
+    "comes from a separate DOM check: exact product IDs, names and order, with hidden/style/layout checks. Its own reads add work. A match must occur within 1,500 ms and still be present at the observation checkpoint. The checkpoint can run late in a background tab. The products and offer can still change afterward; the recorded checkpoint remains fixed. A changed or obstructed visual presentation is not fully covered by this DOM assertion.",
+    "provient d’un contrôle séparé du DOM : identifiants, noms et ordre exacts, avec vérification du masquage, des styles et de la présence dans la mise en page. Ces lectures ajoutent du travail. La paire doit apparaître dans les 1 500 ms et rester présente au contrôle final, qui peut s’exécuter en retard dans un onglet en arrière-plan. Les produits et l’offre peuvent encore changer ensuite ; le constat enregistré reste fixe. Ce contrôle du DOM ne couvre pas entièrement une présentation altérée ou occultée."
+  ],
+  [
+    "means the handler ran and updated its feedback. It is not a measured Event Timing duration or proof of a painted frame. One button invokes the waiting handler first, then the independent handler, on the same main thread. Both use one shared offer promise; this is not a benchmark between independent pages.",
+    "indique que le gestionnaire s’est exécuté et a modifié son message. Ce n’est ni une durée Event Timing ni la preuve d’une image affichée à l’écran. Le même bouton appelle d’abord le filtre dépendant, puis le filtre indépendant, sur le même thread principal. Ils partagent la promesse de l’offre ; ce n’est pas un benchmark entre pages indépendantes."
+  ],
+  [
+    "is simulated in this browser: a 600 ms timer, a rejected promise, or a promise held pending. Acceptance starts one shared simulation; rejection starts none. No offer request leaves your browser. A timer can fire later than its requested delay. If you wait before filtering, the offer may already be ready.",
+    "est simulée dans ce navigateur : un délai de 600 ms, une promesse rejetée ou une promesse maintenue en attente. L’acceptation lance une simulation partagée ; le refus n’en lance aucune. Aucune requête d’offre ne quitte votre navigateur. Un timer peut se déclencher après le délai demandé. Si vous attendez avant de filtrer, l’offre peut déjà être disponible."
+  ],
+  [
+    "This teaching companion uses fresh, in-memory choices and separate presentation code. It does not reproduce the campaign’s network failures, input spacing, saved-choice states, CPU slowdown or measuring instrument. Its observations are never added to the frozen 480 trials. The",
+    "Cette démonstration utilise des choix conservés uniquement en mémoire et un code de présentation distinct. Elle ne reproduit ni les pannes réseau de la campagne, ni l’espacement des interactions, les préférences enregistrées, le ralentissement CPU ou l’instrument de mesure. Ses observations ne sont jamais ajoutées aux 480 essais figés. Le"
+  ],
+  [
+    "JavaScript is off. The six products in each version remain readable. With acceptance, version A waits for the offer; version B can filter without it. The code repository contains the verified laboratory measurements.",
+    "JavaScript est désactivé. Les six produits de chaque version restent lisibles. Après acceptation, la version A attend l’offre ; la version B peut filtrer sans elle. Le dépôt de code contient les mesures vérifiées du laboratoire."
+  ],
+  [
+    "In the frozen campaign, all 80 unfinished baseline tasks still recorded a 16 ms Event Timing duration. Those are archived results, not readings from this view.",
+    "Dans la campagne figée, les 80 tâches inachevées de la version dépendante ont toutes enregistré une durée Event Timing de 16 ms. Il s’agit des résultats archivés, pas de mesures prises dans cette page."
+  ],
+  [
+    "uses two real HTTP origins, saved preferences and the unchanged measuring instrument. Keep its measured results separate from this browser simulation.",
+    "utilise deux véritables origines HTTP, des préférences enregistrées et l’instrument de mesure inchangé. Ses résultats mesurés doivent être distingués de cette simulation dans le navigateur."
+  ],
+  [
+    "Compare a product filter that waits for an optional service with one that works independently. Browser simulation and reproducible lab evidence.",
+    "Comparez un filtre produit dépendant d’un service facultatif à un filtre indépendant. Simulation dans le navigateur et laboratoire reproductible."
+  ],
+  [
+    "Ask both versions for the same two shoes.<br>Watch what happens when the optional offer never arrives.",
+    "Demandez la même paire de produits aux deux versions.<br>Observez ce qui arrive lorsque l’offre facultative ne répond jamais."
+  ],
+  [
+    "Start with a service that never answers. The same optional offer sits behind both versions.",
+    "Commencez par un service qui ne répond jamais. Les deux versions partagent la même offre facultative."
+  ],
+  [
+    "<link rel=\"canonical\" href=\"https://edikkaweb.github.io/consent-task-lab/index-en.html\">",
+    "<link rel=\"canonical\" href=\"https://edikkaweb.github.io/consent-task-lab/\">"
+  ],
+  [
+    "The expected result is Canvas trainer, then Walking shoe, with no extra products.",
+    "Le résultat attendu est Canvas trainer, puis Walking shoe, sans produit supplémentaire."
+  ],
+  [
+    "The simulated offer stays pending. Can the product task still finish?",
+    "L’offre simulée reste en attente. Peut-on tout de même terminer la tâche ?"
+  ],
+  [
+    "Browser simulation. No tracking cookies, saved choice or real vendor.",
+    "Simulation dans le navigateur. Aucun cookie de suivi, choix enregistré ou prestataire réel."
+  ],
+  [
+    "<a href=\"./index.html\" lang=\"fr\" hreflang=\"fr\">Français</a>",
+    "<a href=\"./index-en.html\" lang=\"en\" hreflang=\"en\">English</a>"
+  ],
+  [
+    "A handled click. A completed task? · Consent task lab",
+    "Un clic traité. Une tâche accomplie ? · Consent task lab"
+  ],
+  [
+    "Choose for both versions. No preference is saved.",
+    "Votre choix s’applique aux deux versions. Aucune préférence n’est enregistrée."
+  ],
+  [
+    "The offer loads separately from the product task.",
+    "L’offre se charge séparément de la tâche."
+  ],
+  [
+    "What this comparison shows — and what it measures",
+    "Ce que montre cette comparaison et ce qu’elle mesure"
+  ],
+  [
+    "The product filter depends on an optional offer.",
+    "Le filtre dépend d’une offre facultative."
+  ],
+  [
+    "<a class=\"wordmark\" href=\"./index-en.html\">",
+    "<a class=\"wordmark\" href=\"./index.html\">"
+  ],
+  [
+    "Browser simulation · no INP or speed score",
+    "Simulation dans le navigateur · aucun score INP ou de vitesse"
+  ],
+  [
+    "A handled click.<br>A completed task?",
+    "Un clic traité.<br>Une tâche accomplie ?"
+  ],
+  [
+    "Two versions of the same product task",
+    "Deux versions de la même tâche"
+  ],
+  [
+    "Choose consent, then filter Shoes.",
+    "Choisissez le consentement, puis filtrez les chaussures."
+  ],
+  [
+    "Preparing the browser simulation…",
+    "Préparation de la simulation…"
+  ],
+  [
+    "Products in filters independently",
+    "Produits de la version indépendante"
+  ],
+  [
+    "Products in waits for the offer",
+    "Produits de la version qui attend l’offre"
+  ],
+  [
+    "Feedback is only the beginning.",
+    "La réaction du bouton n’est qu’un début."
+  ],
+  [
+    "Filter Shoes in both versions",
+    "Filtrer les chaussures des deux versions"
+  ],
+  [
+    "Skip to comparison controls",
+    "Aller aux commandes de comparaison"
+  ],
+  [
+    "One task. Two dependencies.",
+    "Une tâche. Deux dépendances."
+  ],
+  [
+    "See the measured results.",
+    "Consulter les résultats mesurés."
+  ],
+  [
+    "original local laboratory",
+    "laboratoire local d’origine"
+  ],
+  [
+    "Set the optional service",
+    "Réglez le service facultatif"
+  ],
+  [
+    "Accept optional service",
+    "Accepter le service facultatif"
+  ],
+  [
+    "Reject optional service",
+    "Refuser le service facultatif"
+  ],
+  [
+    "products in the catalog",
+    "produits au catalogue"
+  ],
+  [
+    "600 ms simulated delay",
+    "Délai simulé de 600 ms"
+  ],
+  [
+    "Filters independently",
+    "Filtre indépendant"
+  ],
+  [
+    "Laboratory resources",
+    "Ressources du laboratoire"
+  ],
+  [
+    "Run the product task",
+    "Lancez la tâche"
+  ],
+  [
+    "Code &amp; evidence",
+    "Code et preuves"
+  ],
+  [
+    "Waits for the offer",
+    "Attend l’offre"
+  ],
+  [
+    "Measurement method",
+    "Méthode de mesure"
+  ],
+  [
+    "Guided comparison",
+    "Comparaison guidée"
+  ],
+  [
+    "Why measure both?",
+    "Pourquoi mesurer les deux ?"
+  ],
+  [
+    "<html lang=\"en\">",
+    "<html lang=\"fr\">"
+  ],
+  [
+    "The distinction",
+    "La distinction"
+  ],
+  [
+    "Choose consent",
+    "Choisissez le consentement"
+  ],
+  [
+    "Correct result",
+    "Résultat attendu"
+  ],
+  [
+    "Optional offer",
+    "Offre facultative"
+  ],
+  [
+    "All 6 products",
+    "Les 6 produits"
+  ],
+  [
+    "Never answers",
+    "Ne répond jamais"
+  ],
+  [
+    "Service fails",
+    "Service en échec"
+  ],
+  [
+    "Click handler",
+    "Gestionnaire de clic"
+  ],
+  [
+    "Not requested",
+    "Non demandé"
+  ],
+  [
+    "Start again",
+    "Recommencer"
+  ],
+  [
+    "Not yet",
+    "Pas encore"
+  ],
+  [
+    "Shoes ·",
+    "Chaussures ·"
+  ],
+  [
+    "Bags ·",
+    "Sacs ·"
+  ],
+  [
+    "Hats ·",
+    "Chapeaux ·"
+  ]
+]

@@ -1,0 +1,7 @@
+{
+  "engine": "firefox",
+  "version": "155.0",
+  "node": "v22.12.0",
+  "observedAt": "2026-11-10T17:59:46.973Z",
+  "note": "Functional checks only; not performance comparisons. Firefox touch emulation not included."
+}

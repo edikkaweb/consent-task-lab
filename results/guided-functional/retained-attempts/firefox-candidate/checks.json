@@ -1,0 +1,67 @@
+{
+  "engine": "firefox",
+  "checkedAt": "2026-11-10T20:38:37.108Z",
+  "scope": "Functional teaching-view checks, excluded from campaign",
+  "checks": [
+    {
+      "name": "firefox: hang/accept",
+      "pass": true
+    },
+    {
+      "name": "firefox: hang/reject",
+      "pass": true
+    },
+    {
+      "name": "firefox: fail/accept",
+      "pass": false
+    },
+    {
+      "name": "firefox: fail/reject",
+      "pass": true
+    },
+    {
+      "name": "firefox: normal/accept",
+      "pass": true
+    },
+    {
+      "name": "firefox: normal/reject",
+      "pass": true
+    },
+    {
+      "name": "panel isolation and wrong-name negative control",
+      "pass": true
+    },
+    {
+      "name": "an early matching DOM does not excuse a wrong final result",
+      "pass": true
+    },
+    {
+      "name": "ten pending resets release connections; normal still completes",
+      "pass": true
+    },
+    {
+      "name": "late old response cannot alter the new rejected attempt",
+      "pass": true
+    },
+    {
+      "name": "keyboard, mobile, reduced motion and accessible status summary",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript: catalog and method remain readable; no optional requests",
+      "pass": true
+    },
+    {
+      "name": "original UI source remains exact on the companion server",
+      "pass": true
+    }
+  ],
+  "failures": [
+    {
+      "name": "firefox: fail/accept",
+      "error": "AssertionError [ERR_ASSERTION]: One shared request on acceptance, zero on refusal\n\n10 !== 1\n",
+      "stack": "AssertionError [ERR_ASSERTION]: One shared request on acceptance, zero on refusal\n\n10 !== 1\n\n    at file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/guided-check.mjs:32:12\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:459:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async check (file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/guided-check.mjs:14:35)\n    at async file:///Users/bertrand/Desktop/projet/edikka/www/tools/consent-task-lab/scripts/guided-check.mjs:18:85"
+    }
+  ],
+  "pass": false
+}

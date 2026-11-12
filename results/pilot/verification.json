@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-11-10T17:45:58.971Z",
+  "runs": 48,
+  "conditions": 24,
+  "traceCount": 24,
+  "rawSha256": "fd6b1afa58bbe8592fcef74701c9c284268dc95ac866c99cc96799675d518c01",
+  "checks": [
+    "complete schedule/order",
+    "source lock",
+    "raw-to-metric recalculation",
+    "independent expected products",
+    "consent and optional requests",
+    "failure retention",
+    "trace user marks and screenshots"
+  ],
+  "pass": true
+}
